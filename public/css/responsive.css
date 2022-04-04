@@ -1,0 +1,15 @@
+@media (max-width: 700px) {
+    header .caixa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p .descricao {
+        display:none;
+        overflow: hidden;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+}

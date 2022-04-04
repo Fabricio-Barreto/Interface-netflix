@@ -1,0 +1,115 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+    --cinza: #AAA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .caixa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 0.75rem;
+ 
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.caixa {
+    margin-left: 1rem;
+}
+
+.anime-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/img/kimetsu-capa.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.conteudo {
+    width: 50%;
+}
+
+.anime-principal .descricao {
+    margin-bottom: 5rem;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 1rem;
+    margin-right: 1rem;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+
+    transition: .3s ease all;
+}
+
+.btn i {
+    margin-right: 0.5rem;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+}
+
+.box-anime {
+    height:100%;
+    width: 100%;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+	font-weight: bold;
+	text-align: center;
+    margin-top: 2rem;
+	padding: 5px;
+    color: #FFF;
+}
